@@ -5,14 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
 ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 body {
     background-color: #fff;
     color: #333;
@@ -28,6 +30,7 @@ p {
 .clearfix {
     zoom: 1;
 }
+
 .clearfix:after {
     clear: both;
     content: ".";
@@ -51,8 +54,8 @@ p {
     top: -40%;
     height: 150%;
     background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.3)),
-    url(../img/parallax-2.jpg);
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.3)),
+        url(../img/parallax-2.jpg);
     pointer-events: none;
     position: absolute;
     left: 0;
@@ -151,7 +154,7 @@ p {
     width: 110px;
 }
 
-.container__item-icon + .container__item-icon {
+.container__item-icon+.container__item-icon {
     margin-left: 24px;
 }
 
@@ -174,8 +177,7 @@ p {
     background-color: #fff;
 }
 
-.container__content {
-}
+.container__content {}
 
 .content__title {
     text-align: center;
@@ -255,9 +257,7 @@ p {
     background-size: cover !important;
 }
 
-.container__packages-wrap {
-    
-}
+.container__packages-wrap {}
 
 .container__packages-text {
     letter-spacing: 1px;
@@ -268,10 +268,10 @@ p {
     color: #fff;
     font-weight: 700;
     line-height: 1.2;
-    position: relative;
+    /* position: relative; */
 }
 
-.container__packages-text span{
+.container__packages-text span {
     position: relative;
     z-index: 2;
 }
@@ -326,7 +326,7 @@ p {
     line-height: 1.7;
 }
 
-.container__beaches-description p + p {
+.container__beaches-description p+p {
     margin-top: 16px;
 }
 
@@ -403,7 +403,8 @@ p {
     transition: background-color 0.6s ease;
 }
 
-.dot.active, .dot:hover {
+.dot.active,
+.dot:hover {
     background-color: #fff;
 }
 
@@ -428,7 +429,7 @@ p {
     letter-spacing: 1px;
 }
 
-.container__beaches-slider-time li + li {
+.container__beaches-slider-time li+li {
     margin-left: 40px;
 }
 
@@ -447,17 +448,27 @@ p {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
 
 
 /* container list tour */
@@ -466,9 +477,7 @@ p {
     padding: 60px 0;
 }
 
-.container__list-tour-item {
-
-}
+.container__list-tour-item {}
 
 .container__list-tour-item img {
     float: left;
@@ -490,14 +499,14 @@ p {
     margin-top: 16px;
     font-size: 14px;
     line-height: 1.6;
-} 
+}
 
 .container__list-tour-item-text a {
     color: #14b9d5;
     font-size: 14px;
     margin-top: 24px;
     display: inline-block;
-} 
+}
 
 /* container details */
 
@@ -629,14 +638,14 @@ p {
     padding: 16px 0;
 }
 
-.container__promotions-price-title  {
+.container__promotions-price-title {
     letter-spacing: 2px;
 }
 
 .container__promotions-price-title a {
     color: #333;
     font-size: 12px;
-    
+
 }
 
 .container__promotions-price-title span {
@@ -688,9 +697,7 @@ p {
 /* header responsive------------------------- ----------------------*/
 
 /* PC */
-@media (min-width: 1024px) {
-    
-}
+@media (min-width: 1024px) {}
 
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
@@ -710,7 +717,7 @@ p {
         width: 100%;
     }
 
-    .container__item-icon + .container__item-icon {
+    .container__item-icon+.container__item-icon {
         margin-left: 0;
         margin-top: 32px;
     }
@@ -779,7 +786,7 @@ p {
         flex-direction: column;
     }
 
-    .container__beaches-slider-time li + li {
+    .container__beaches-slider-time li+li {
         margin-left: 0;
         margin-top: 16px;
     }
