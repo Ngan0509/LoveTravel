@@ -4,24 +4,20 @@
 
 /* layout content search1*/
 
-.container {
-
-}
+.container {}
 
 .container__wrap {
     position: relative;
     padding-top: 200px !important;
     padding-bottom: 50px !important;
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538) !important;
+    background-image: url(../../img/parallax-search-2.jpg) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     width: 1349px;
 }
 
-.container__header-content {
-
-}
+.container__header-content {}
 
 .container__header-content-title {
     color: #fff;
@@ -65,9 +61,7 @@
     margin-top: 60px;
 }
 
-.container__header-content-filters-item {
-
-}
+.container__header-content-filters-item {}
 
 .container__header-content-filters-label {
     letter-spacing: 1px;
@@ -121,9 +115,7 @@
     float: right;
 }
 
-.container__search-checkbox {
-
-}
+.container__search-checkbox {}
 
 .container__search span {
     margin-left: 8px;
@@ -196,7 +188,7 @@
     width: 700px;
     height: 30px;
     background-color: transparent;
-    top:-14%;
+    top: -14%;
     right: 0;
 }
 
@@ -263,7 +255,8 @@
     position: absolute;
     background-color: #fff;
     height: 2px;
-    width: 42px; /**/
+    width: 42px;
+    /**/
     bottom: -4px;
 }
 
@@ -300,9 +293,7 @@
     background-color: #5d5d5d;
 }
 
-.container__header-content-choose-icon {
-
-}
+.container__header-content-choose-icon {}
 
 .container__header-content-choose-icon-menu,
 .container__header-content-choose-icon-list {
@@ -339,9 +330,7 @@
     padding: 0;
 }
 
-.container__promotions-list {
-    
-}
+.container__promotions-list {}
 
 .container__promotions-wrap {
     border: 1px solid #ebe7e7;
@@ -410,14 +399,14 @@
     padding: 16px 0;
 }
 
-.container__promotions-price-title  {
+.container__promotions-price-title {
     letter-spacing: 2px;
 }
 
 .container__promotions-price-title a {
     color: #333;
     font-size: 12px;
-    
+
 }
 
 .container__promotions-price-title span {
@@ -539,6 +528,7 @@
 
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
+
     .container__header-content-filters-wrap,
     .container__header-content-choose {
         display: none;
